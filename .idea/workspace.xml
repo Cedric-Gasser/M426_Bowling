@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b3c44df-9061-4fef-8c12-147c78464a6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bowling.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bowling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BowlingTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/BowlingTest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -39,19 +41,19 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in BowlingTest.py">
+  <component name="RunManager" selected="Python tests.Unittests for BowlingTest.BowlingTest">
     <configuration name="Bowling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="M426_Bowling" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/bin/python" />
+      <option name="SDK_HOME" value="C:\Users\VIGam\AppData\Local\Programs\Python\Python38-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bowling.py" />
       <option name="PARAMETERS" value="" />
@@ -60,6 +62,51 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for BowlingTest.BowlingTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="M426_Bowling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;BowlingTest.BowlingTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for BowlingTest.BowlingTest.test_allSpares" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="M426_Bowling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;BowlingTest.BowlingTest.test_allSpares&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for BowlingTest.BowlingTest.test_allStrikes" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="M426_Bowling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;BowlingTest.BowlingTest.test_allStrikes&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests in BowlingTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -78,14 +125,27 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.Bowling" />
+      <item itemvalue="Python tests.Unittests for BowlingTest.BowlingTest" />
+      <item itemvalue="Python tests.Unittests for BowlingTest.BowlingTest.test_allSpares" />
+      <item itemvalue="Python tests.Unittests for BowlingTest.BowlingTest.test_allStrikes" />
+      <item itemvalue="Python tests.Unittests in BowlingTest.py" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in BowlingTest.py" />
+        <item itemvalue="Python tests.Unittests for BowlingTest.BowlingTest" />
         <item itemvalue="Python.Bowling" />
+        <item itemvalue="Python tests.Unittests for BowlingTest.BowlingTest.test_allSpares" />
+        <item itemvalue="Python tests.Unittests for BowlingTest.BowlingTest.test_allStrikes" />
+        <item itemvalue="Python tests.Unittests in BowlingTest.py" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4b3c44df-9061-4fef-8c12-147c78464a6e" name="Default Changelist" comment="" />
@@ -98,32 +158,52 @@
       <workItem from="1607622129727" duration="323000" />
       <workItem from="1608116095434" duration="5684000" />
       <workItem from="1608145140517" duration="3949000" />
+      <workItem from="1608150086838" duration="4876000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1874" height="280" key="GridCell.Tab.0.bottom" timestamp="1608149834420">
-      <screen x="0" y="24" width="1920" height="1056" />
+    <state x="992" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608153197775">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
+    <state x="992" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/-1920.0.1920.1040@0.0.3440.1400" timestamp="1608153197775" />
+    <state x="2117" y="398" width="917" height="545" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1608152920068">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="2117" y="398" width="917" height="545" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.3440.1400/-1920.0.1920.1040@0.0.3440.1400" timestamp="1608152920068" />
+    <state width="1057" height="181" key="GridCell.Tab.0.bottom" timestamp="1608154968005">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1057" height="181" key="GridCell.Tab.0.bottom/0.0.3440.1400/-1920.0.1920.1040@0.0.3440.1400" timestamp="1608154968005" />
     <state width="1874" height="280" key="GridCell.Tab.0.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1608149834420" />
-    <state width="1874" height="280" key="GridCell.Tab.0.center" timestamp="1608149834419">
-      <screen x="0" y="24" width="1920" height="1056" />
+    <state width="1057" height="181" key="GridCell.Tab.0.center" timestamp="1608154968005">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
+    <state width="1057" height="181" key="GridCell.Tab.0.center/0.0.3440.1400/-1920.0.1920.1040@0.0.3440.1400" timestamp="1608154968004" />
     <state width="1874" height="280" key="GridCell.Tab.0.center/0.24.1920.1056@0.24.1920.1056" timestamp="1608149834419" />
-    <state width="1874" height="280" key="GridCell.Tab.0.left" timestamp="1608149834419">
-      <screen x="0" y="24" width="1920" height="1056" />
+    <state width="1057" height="181" key="GridCell.Tab.0.left" timestamp="1608154968004">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
+    <state width="1057" height="181" key="GridCell.Tab.0.left/0.0.3440.1400/-1920.0.1920.1040@0.0.3440.1400" timestamp="1608154968004" />
     <state width="1874" height="280" key="GridCell.Tab.0.left/0.24.1920.1056@0.24.1920.1056" timestamp="1608149834419" />
-    <state width="1874" height="280" key="GridCell.Tab.0.right" timestamp="1608149834420">
-      <screen x="0" y="24" width="1920" height="1056" />
+    <state width="1057" height="181" key="GridCell.Tab.0.right" timestamp="1608154968005">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
+    <state width="1057" height="181" key="GridCell.Tab.0.right/0.0.3440.1400/-1920.0.1920.1040@0.0.3440.1400" timestamp="1608154968005" />
     <state width="1874" height="280" key="GridCell.Tab.0.right/0.24.1920.1056@0.24.1920.1056" timestamp="1608149834420" />
+    <state x="1340" y="439" key="com.intellij.ide.util.TipDialog" timestamp="1608150105401">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1340" y="439" key="com.intellij.ide.util.TipDialog/0.0.3440.1400/-1920.0.1920.1040@0.0.3440.1400" timestamp="1608150105401" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/M426_Bowling$Bowling.coverage" NAME="Bowling Coverage Results" MODIFIED="1608148822508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/M426_Bowling$Unittests_in_BowlingTest_py.coverage" NAME="Unittests in BowlingTest.py Coverage Results" MODIFIED="1608149834227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/M426_Bowling$Unittests_for_BowlingTest_BowlingTest_test_allSpares.coverage" NAME="Unittests for BowlingTest.BowlingTest.test_allSpares Coverage Results" MODIFIED="1608151625660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/M426_Bowling$Bowling.coverage" NAME="Bowling Coverage Results" MODIFIED="1608153978497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/M426_Bowling$Unittests_for_BowlingTest_BowlingTest.coverage" NAME="Unittests for BowlingTest.BowlingTest Coverage Results" MODIFIED="1608154967991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/M426_Bowling$Unittests_for_BowlingTest_BowlingTest_test_allStrikes.coverage" NAME="Unittests for BowlingTest.BowlingTest.test_allStrikes Coverage Results" MODIFIED="1608151069997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
