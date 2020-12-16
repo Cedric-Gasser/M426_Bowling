@@ -1,57 +1,57 @@
 result = 0
 
-def score(scoreString):
+
+def score(score_string):
     global result
-    result = _convertScore(scoreString)
+    result = convertScore(score_string)
 
 
 def getResult() -> int:
     return result
 
 
-def _convertScore(scoreString) -> int:
-    scoreString = scoreString.upper();
-    scorePerRound = []
+def convertScore(score_string) -> int:
+    score_string = score_string.upper()
+    score_per_round = []
 
     pointer = 0
     for i in range(10):
-        round = scoreString[pointer]
-        if round == "X":
-            scorePerRound.append(scoreString[pointer] + scoreString[pointer+1] + scoreString[pointer+2])
+        if score_string[pointer] == "X":
+            score_per_round.append(score_string[pointer] + score_string[pointer + 1] + score_string[pointer + 2])
             pointer += 1
 
-        elif int(round) < 10 and int(round) > 0 and scoreString[pointer + 1] == "/":
-            scorePerRound.append(scoreString[pointer] + scoreString[pointer+1] + scoreString[pointer+2])
+        elif 10 > int(score_string[pointer]) > 0 and score_string[pointer + 1] == "/":
+            score_per_round.append(score_string[pointer] + score_string[pointer + 1] + score_string[pointer + 2])
             pointer += 2
 
         else:
-            scorePerRound.append(scoreString[pointer] + scoreString[pointer + 1])
+            score_per_round.append(score_string[pointer] + score_string[pointer + 1])
             pointer += 2
 
-    print(scorePerRound)
+    print(score_per_round)
 
     res = 0
-    for i in scorePerRound:
+    for i in score_per_round:
         res += parseCode(i)
 
     return res
 
-def parseCode(roundString) -> int:
+
+def parseCode(round_string) -> int:
     res = 0
-    for i in range(len(roundString)):
-        if roundString[i] == "X":
+    for i in range(len(round_string)):
+        if round_string[i] == "X":
             res += 10
-        elif roundString[i] == "/":
+        elif round_string[i] == "/":
             res += 10
-            res -= int(roundString[i-1])
-        elif roundString[i] == "-":
-            roundString[i] = "0"
-            pass
+            res -= int(round_string[i - 1])
+        elif round_string[i] == "-":
+            round_string[i] = "0"
         else:
-            res += int(roundString[i])
+            res += int(round_string[i])
     return res
 
 
 if __name__ == "__main__":
     score = input()
-    print(_convertScore(score))
+    print(convertScore(score))
