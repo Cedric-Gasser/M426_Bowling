@@ -94,7 +94,7 @@
       <workItem from="1607520132478" duration="695000" />
       <workItem from="1607526177450" duration="4511000" />
       <workItem from="1607622129727" duration="323000" />
-      <workItem from="1608116095434" duration="1670000" />
+      <workItem from="1608116095434" duration="5684000" />
     </task>
     <servers />
   </component>
@@ -102,25 +102,25 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1127" height="280" key="GridCell.Tab.0.bottom" timestamp="1608117678154">
+    <state width="1127" height="280" key="GridCell.Tab.0.bottom" timestamp="1608122682242">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1127" height="280" key="GridCell.Tab.0.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1608117678154" />
-    <state width="1127" height="280" key="GridCell.Tab.0.center" timestamp="1608117678153">
+    <state width="1127" height="280" key="GridCell.Tab.0.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1608122682242" />
+    <state width="1127" height="280" key="GridCell.Tab.0.center" timestamp="1608122682240">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1127" height="280" key="GridCell.Tab.0.center/0.24.1920.1056@0.24.1920.1056" timestamp="1608117678153" />
-    <state width="1127" height="280" key="GridCell.Tab.0.left" timestamp="1608117678152">
+    <state width="1127" height="280" key="GridCell.Tab.0.center/0.24.1920.1056@0.24.1920.1056" timestamp="1608122682240" />
+    <state width="1127" height="280" key="GridCell.Tab.0.left" timestamp="1608122682239">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1127" height="280" key="GridCell.Tab.0.left/0.24.1920.1056@0.24.1920.1056" timestamp="1608117678152" />
-    <state width="1127" height="280" key="GridCell.Tab.0.right" timestamp="1608117678154">
+    <state width="1127" height="280" key="GridCell.Tab.0.left/0.24.1920.1056@0.24.1920.1056" timestamp="1608122682239" />
+    <state width="1127" height="280" key="GridCell.Tab.0.right" timestamp="1608122682241">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1127" height="280" key="GridCell.Tab.0.right/0.24.1920.1056@0.24.1920.1056" timestamp="1608117678154" />
+    <state width="1127" height="280" key="GridCell.Tab.0.right/0.24.1920.1056@0.24.1920.1056" timestamp="1608122682241" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/M426_Bowling$Bowling.coverage" NAME="Bowling Coverage Results" MODIFIED="1608117678140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/M426_Bowling$Bowling.coverage" NAME="Bowling Coverage Results" MODIFIED="1608122682210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/M426_Bowling$Unittests_in_BowlingTest_py.coverage" NAME="Unittests in BowlingTest.py Coverage Results" MODIFIED="1607535560901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

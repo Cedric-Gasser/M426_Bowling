@@ -44,9 +44,14 @@ def parseCode(roundString) -> int:
         elif roundString[i] == "/":
             res += 10
             res -= int(roundString[i-1])
+        elif roundString[i] == "-":
+            roundString[i] = "0"
+            pass
         else:
             res += int(roundString[i])
     return res
 
-score = input()
-print(_convertScore(score))
+
+if __name__ == "__main__":
+    score = input()
+    print(_convertScore(score))
